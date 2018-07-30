@@ -20,7 +20,7 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 1. 配置TeX环境：  
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 2. 下载本模版：  
-下载地址：  
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-temple/raw/master/temple.zip  
 下载到的应该是一个zip，将其解压，~~洗干净切丁~~备用
 3. 使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`temple.tex  `.
 4. 输入基本信息，26到31行为封面页信息，依次为题目、作者、班级、提交时间、学科（我写了CELE）、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。
