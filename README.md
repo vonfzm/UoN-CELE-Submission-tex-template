@@ -19,4 +19,7 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 --------
 1. 配置TeX环境：  
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
-2. 使用
+2. 下载本模版：
+下载地址：  
+3. 使用编辑器打开temple.tex  
+4. 输入基本信息，26~31
