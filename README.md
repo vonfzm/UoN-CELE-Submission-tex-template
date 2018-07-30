@@ -25,4 +25,6 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 3. 使用编辑器打开temple.tex  
 4. 输入基本信息，26到31行为封面页信息，依次为题目、作者、班级、提交时间、学科（我写了CELE）、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。
 5. 输入正文：  
-正文从53行开始，夹在`\begin{flushleft}`与`\end{flushleft}`之间，段落之间
+正文从53行开始，夹在`\begin{flushleft}`与`\end{flushleft}`之间，换行用` \\`,换段用`\par`。
+6. 参考文献的引用：  
+首先用文献管理软件(bibdesk在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中（）
