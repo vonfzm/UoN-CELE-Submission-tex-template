@@ -33,11 +33,11 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 这个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
 8. 字数统计：  
-在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd）中，首先输入`cd 你的temple文件夹的路径`，比如放在桌面就是`cd Desktop\temple`然后输入`texcount temple.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
+在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的temple文件夹的路径`，比如放在桌面就是`cd Desktop\temple`然后输入`texcount temple.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
 
 错误食用方法：
 --------
 请不要使用中文或任何数学公式，包括全角标点符号。  
-请不要下载后把其中的PDF转成docx再写！那样是没有灵魂的！  
+请不要下载后把其中的PDF转成docx再写！那样写出来的作业是没有灵魂的！  
 如果出现报错请先百度/Google，基本上都是常见问题。如果再不行，再顺着网线来砍我（这种做法不被提倡）。。。。   
 请不要事先吓自己，心态要平稳。因为这个并不比word难用，只是你可能还未熟悉。  
