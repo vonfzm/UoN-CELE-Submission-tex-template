@@ -72,4 +72,6 @@ References及所询问的老师：
 
 致谢：
 ----
-感谢[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员，感谢提供指导的Katerina Liontou老师与Robito Chatwin老师。感谢黄娇雅同学、王俪霓同学、黄馨逸同学的协助。
+1. 感谢[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员  
+2. 感谢提供指导的Katerina Liontou老师与Robito Chatwin老师  
+3. 感谢黄娇雅同学、王俪霓同学、黄馨逸同学的协助。
