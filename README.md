@@ -16,6 +16,13 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 7. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
 8. 页码从正文开始，并延伸到参考文献页
   
+References及所询问的老师：
+---------------
+1. USE OF HARVARD REFERENCING (Version 2.0 - 22.03.2013)  The University of Nottingham, School of Education
+2. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)          
+3. Katerina Liontou <alzkl@exmail.nottingham.ac.uk>
+4. Robito Chatwin <alzrc@exmail.nottingham.ac.uk>
+
 使用方法：
 -------
 1. 配置TeX环境：  
@@ -30,7 +37,10 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 5. 输入正文：  
 正文从53行开始，夹在`\begin{flushleft}`与`\end{flushleft}`之间，换行用` \\`（换行是自动的，本强制换行命令仅用于引用较长的quotation）,换段用`\par`。
 6. 参考文献的引用：  
-首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，所以请将默认引用命令`\cite{}`改为`\citep*{}`，如果有多篇文献的话，用逗号隔开。
+首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表）       
+| 引用指令      | 效果     |
+| ---------- | :-----------:  |
+| \citet{jon90}     | Jones et al. (1990)     |
 7. 编译：  
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 这个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
@@ -43,3 +53,7 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 2. 请不要下载后把其中的PDF转成docx再写！那样写出来的作业是没有灵魂的！就像用擦丝器生产土豆丝一样不可饶恕！  
 3. 如果出现报错请先百度或Google，这种简单的纯英语论文基本上都是常见问题。如果再不行，再顺着网线来砍我（这种做法不被提倡）。。。。   
 4. 请不要事先吓自己，心态要平稳。因为这个并不比word难用，只是你可能还未熟悉。  
+
+致谢：
+----
+感谢[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员，感谢提供指导的Katerina Liontou老师与Robito Chatwin老师。
