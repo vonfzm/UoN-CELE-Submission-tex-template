@@ -42,7 +42,20 @@ References及所询问的老师：
 | 引用指令       |           效果 |
 | ------------- | ------------- |
 | \citet{jon90}  |Jones et al. (1990)  |
-| Content Cell  | Content Cell  |
+| \citet[chap.~2]{jon90}  | Jones et al. (1990, chap. 2)  |
+| \citep{jon90}  | (Jones et al., 1990)  |
+| \citep[chap.~2]{jon90}  | (Jones et al., 1990, chap. 2)  |
+| \citep[see][]{jon90}  | (see Jones et al., 1990)  |
+| \citep[see][chap.~2]{jon90}  | (see Jones et al., 1990, chap. 2)  |
+| \citet*{jon90}  | Jones, Baker, and Williams (1990)  |
+| \citep*{jon90}  | (Jones, Baker, and Williams, 1990)  |
+| \citet{jon90,jam91}  | Jones et al. (1990); James et al. (1991)  |
+| \citep{jon90,jam91}  | (Jones et al., 1990; James et al. 1991)  |
+| \citep{jon90,jon91}  | (Jones et al., 1990, 1991) |
+| \citep{jon90a,jon90b}  | (Jones et al., 1990a,b)  |
+| \citeauthor{jon90}  | Jones et al.  |
+| \citeauthor*{jon90}  | Jones, Baker, and Williams  |
+| \citeyearpar{jon90}  | (1990)  |
 
 7. 编译：  
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 这个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
