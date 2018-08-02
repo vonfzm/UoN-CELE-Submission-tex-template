@@ -12,7 +12,7 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 3. 行间距为2倍字号（为了方便老师批注）  
 4. 段间空一行  
 5. 页边距为2.5cm  
-6. 根据学校邮件要求，使用考文垂大学CELE规定的Harvard文献引用与列表格式（References大号居中标题经老师证明符合要求）
+6. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号居中标题经老师证明符合要求）
 7. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
 8. 页码从正文开始，并延伸到参考文献页
 9. 对齐方式为justify
@@ -88,6 +88,6 @@ References及所询问的老师：
 
 致谢：
 ----
-1. 感谢[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员  
-2. 感谢提供指导的Katerina Liontou老师与Robito Chatwin老师  
-3. 感谢黄娇雅同学、王俪霓同学、黄馨逸同学的协助。
+1. 感谢提供LaTeX指导的[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员  
+2. 感谢提供格式指导的Katerina Liontou老师与Robito Chatwin老师  
+3. 感谢提供协助的黄娇雅同学、王俪霓同学、黄馨逸同学。
