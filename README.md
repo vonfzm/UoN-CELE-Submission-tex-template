@@ -15,6 +15,7 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 6. 使用Harvard文献引用与列表格式（References大号居中标题经老师证明符合要求）
 7. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
 8. 页码从正文开始，并延伸到参考文献页
+9. 对齐方式为justify
   
 References及所询问的老师：
 ---------------
@@ -58,18 +59,21 @@ References及所询问的老师：
 | \citeyearpar{jon90}  | (1990)  |
   
 7. 插入整段quotation（如果需要的话）：  
-插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码（其中缩进距离由Robito老师指导。）:  
-`\hangafter=0  
-\setlength{\hangindent}{4em}`  
-并在下一段正常正文中`\par`后加入  
-`\setlength{\hangindent}{0em}`  
+在以下两行命令之间插入你的quotation
+`\begin{quotation}` 
+你的quotation
+`\end{quotation}`  
 
 8. 编译：  
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
 9. 字数统计：  
 在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`然后输入`texcount template.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
-
+10. 转成Word格式（很重要！）  
+由于我们的老师只会用Microsoft Word进行批注（事实上这也是学校买正版的原因）  
+使用Adobe Acrobat打开你得到的PDF文件，左上角菜单，文件-导出到-Microsoft Word-Word 文档，重命名并导出即可。  
+你也可以使用其它方式进行这种转换，但Adobe作为PDF格式的提供者，Acrobat作为官方PDF阅读与编辑工具，似乎更加稳妥。  
+  
 避免出现错误食用方法：
 --------
 1. 请不要使用中文或任何数学公式，包括全角标点符号。  
