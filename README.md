@@ -59,9 +59,10 @@ References及所询问的老师：
   
 7. 插入整段quotation（如果需要的话）：  
 插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码：（其中缩进距离由Robito老师指导。）  
-`\hangafter=0
-\setlength{\hangindent}{4em}`
-并在下一段正常正文中`\par`后加入`\setlength{\hangindent}{0em}`  
+`\hangafter=0  
+\setlength{\hangindent}{4em}`  
+并在下一段正常正文中`\par`后加入  
+`\setlength{\hangindent}{0em}`  
 
 8. 编译：  
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
