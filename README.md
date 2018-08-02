@@ -64,10 +64,9 @@ References及所询问的老师：
 | \citeyearpar{jon90}  | (1990)  |
   
 7. 插入整段quotation（如果需要的话）：  
-在以下两行命令之间插入你的quotation
-`\begin{quotation}` 
-你的quotation
-`\end{quotation}`  
+在以下两行命令之间插入你的quotation  
+`\begin{quotation}`   
+`\end{quotation}`    
 
 8. 编译：  
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
