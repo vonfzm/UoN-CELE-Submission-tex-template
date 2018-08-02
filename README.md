@@ -58,7 +58,7 @@ References及所询问的老师：
 | \citeyearpar{jon90}  | (1990)  |
   
 7. 插入整段quotation（如果需要的话）：  
-插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码：（其中缩进距离由Robito老师指导。）  
+插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码（其中缩进距离由Robito老师指导。）:  
 `\hangafter=0  
 \setlength{\hangindent}{4em}`  
 并在下一段正常正文中`\par`后加入  
