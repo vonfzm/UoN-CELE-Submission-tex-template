@@ -69,7 +69,7 @@ References及所询问的老师：
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
 9. 字数统计：  
 在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`然后输入`texcount template.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
-10. 转成Word格式（很重要！）  
+10. 转成Word格式（很重要！）：  
 由于我们的老师只会用Microsoft Word进行批注（事实上这也是学校买正版的原因）  
 使用Adobe Acrobat打开你得到的PDF文件，左上角菜单，文件-导出到-Microsoft Word-Word 文档，重命名并导出即可。  
 你也可以使用其它方式进行这种转换，但Adobe作为PDF格式的提供者，Acrobat作为官方PDF阅读与编辑工具，似乎更加稳妥。  
