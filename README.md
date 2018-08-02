@@ -1,5 +1,5 @@
-# UoN-CELE-Submission-tex-temple
-A TeX temple for University of Nottingham CELE students,to help them with their submissions' fromat  
+# UoN-CELE-Submission-tex-template
+A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
   
 Because most of CELE students are Chinese,This readme will be written in Chinese. 
   
@@ -31,7 +31,7 @@ References及所询问的老师：
 下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-temple/files/2242504/temple.zip 
 下载到的应该是一个zip，将其解压，~~洗净切丁沾上鸡蛋清，裹上面包糠炸至金黄~~备用
 3. 打开源文件：  
-使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`temple.tex  `。
+使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`template.tex  `。
 4. 输入基本信息：  
 26到31行为封面页信息，依次为题目、作者、班级、提交时间、学科（我写了CELE）、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。
 5. 输入正文：  
@@ -61,7 +61,7 @@ References及所询问的老师：
 我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 这个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
 8. 字数统计：  
-在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的temple文件夹的路径`，比如放在桌面就是`cd Desktop\temple`然后输入`texcount temple.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
+在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`然后输入`texcount template.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
 
 避免出现错误食用方法：
 --------
