@@ -12,16 +12,16 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 3. 行间距为2倍字号（为了方便老师批注）  
 4. 段间空一行  
 5. 页边距为2.5cm  
-6. 使用Harvard文献引用与列表格式（References大号居中标题经老师证明符合要求）
+6. 根据学校邮件要求，使用考文垂大学CELE规定的Harvard文献引用与列表格式（References大号居中标题经老师证明符合要求）
 7. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
 8. 页码从正文开始，并延伸到参考文献页
 9. 对齐方式为justify
   
 References及所询问的老师：
 ---------------
-1. USE OF HARVARD REFERENCING (Version 2.0 - 22.03.2013)  The University of Nottingham, School of Education
-2. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)   
-3. [The Coventry University Guide to Referencing in Harvard Style Guidelines and Glossary](https://www.coventry.ac.uk/Documents/Lanchester%20Library/Guide%20to%20Referencing%20in%20Harvard%20Style%20Version%204.0%20September%202017.pdf)(Version 4.0 September 2017)
+1. [USE OF HARVARD REFERENCING (Version 2.0 - 22.03.2013)  The University of Nottingham, School of Education](https://dokumen.tips/documents/use-of-harvard-referencing.html)
+2. [The Coventry University Guide to Referencing in Harvard Style Guidelines and Glossary](https://www.coventry.ac.uk/Documents/Lanchester%20Library/Guide%20to%20Referencing%20in%20Harvard%20Style%20Version%204.0%20September%202017.pdf)(Version 4.0 September 2017)
+3. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)   
 4. Katerina Liontou <alzkl@exmail.nottingham.ac.uk>
 5. Robito Chatwin <alzrc@exmail.nottingham.ac.uk>
 
