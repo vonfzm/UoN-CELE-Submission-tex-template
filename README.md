@@ -57,7 +57,7 @@ References及所询问的老师：
 | \citeauthor*{jon90}  | Jones, Baker, and Williams  |
 | \citeyearpar{jon90}  | (1990)  |
   
-7. 插入整段quotation（如果需要的话）：
+7. 插入整段quotation（如果需要的话）：  
 插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码：（其中缩进距离由Robito老师指导。）  
 `\hangafter=0
 \setlength{\hangindent}{4em}`
