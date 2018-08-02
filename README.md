@@ -88,6 +88,6 @@ References及所询问的老师：
 
 致谢：
 ----
-1. 感谢提供LaTeX指导的[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User group telegram组全体成员  
+1. 感谢提供LaTeX指导的[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User Group telegram组全体成员  
 2. 感谢提供格式指导的Katerina Liontou老师与Robito Chatwin老师  
 3. 感谢提供协助的黄娇雅同学、王俪霓同学、黄馨逸同学。
