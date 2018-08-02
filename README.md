@@ -20,9 +20,10 @@ Because most of CELE students are Chinese,This readme will be written in Chinese
 References及所询问的老师：
 ---------------
 1. USE OF HARVARD REFERENCING (Version 2.0 - 22.03.2013)  The University of Nottingham, School of Education
-2. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)          
-3. Katerina Liontou <alzkl@exmail.nottingham.ac.uk>
-4. Robito Chatwin <alzrc@exmail.nottingham.ac.uk>
+2. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)   
+3. [The Coventry University Guide to Referencing in Harvard Style Guidelines and Glossary](https://www.coventry.ac.uk/Documents/Lanchester%20Library/Guide%20to%20Referencing%20in%20Harvard%20Style%20Version%204.0%20September%202017.pdf)Version 4.0 September 2017
+4. Katerina Liontou <alzkl@exmail.nottingham.ac.uk>
+5. Robito Chatwin <alzrc@exmail.nottingham.ac.uk>
 
 使用方法：
 -------
