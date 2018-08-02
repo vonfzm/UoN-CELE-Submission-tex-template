@@ -28,8 +28,8 @@ References及所询问的老师：
 1. 配置TeX环境：  
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 2. 下载本模版：  
-下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-temple/files/2242504/temple.zip 
-下载到的应该是一个zip，将其解压，~~洗净切丁沾上鸡蛋清，裹上面包糠炸至金黄~~备用
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2253702/template.zip
+下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸至两面金黄~~备用
 3. 打开源文件：  
 使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`template.tex  `。
 4. 输入基本信息：  
@@ -56,11 +56,17 @@ References及所询问的老师：
 | \citeauthor{jon90}  | Jones et al.  |
 | \citeauthor*{jon90}  | Jones, Baker, and Williams  |
 | \citeyearpar{jon90}  | (1990)  |
+  
+7. 插入整段quotation（如果需要的话）：
+插入较长quotation需要单独一段并缩进，在quotation那一段开头的`\par`后面加上以下两行代码：（其中缩进距离由Robito老师指导。）  
+`\hangafter=0
+\setlength{\hangindent}{4em}`
+并在下一段正常正文中`\par`后加入`\setlength{\hangindent}{0em}`  
 
-7. 编译：  
-我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 这个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
+8. 编译：  
+我们一共需要四次编译（也有编译器叫做排版），第一次用XeLaTeX，这是编译你的.tex文件，这时生成一个.aux的文件, 这告诉BibTeX将使用哪些引用。接下来用BibTeX编译。再次用XeLaTeX编译, 个时候在文档中已经包含了参考文献, 但此时引用的编号可能不正确。最后用XeLaTeX编译你的.tex文件，如果一切顺利的话，这时所有东西都已正常了。  
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
-8. 字数统计：  
+9. 字数统计：  
 在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`然后输入`texcount template.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。  
 
 避免出现错误食用方法：
