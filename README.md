@@ -63,6 +63,7 @@ References及所询问的老师：
 | \citeauthor{jon90}  | Jones et al.  |
 | \citeauthor*{jon90}  | Jones, Baker, and Williams  |
 | \citeyearpar{jon90}  | (1990)  |
+| \citealp[pg.~32]{jon90}  | Jones et al., 1990, pg. 32  |
   
 7. 插入整段quotation（如果需要的话）：  
 在以下两行命令之间插入你的quotation  
