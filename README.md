@@ -160,9 +160,9 @@ First open the `bibliography.bib` in the downloaded folder with the document man
 | \citealp[pg.~32]{jon90}  | Jones et al., 1990, pg. 32  | 
   
 7. Insert an entire paragraph of quotation（if needed）:  
-Insert your quotation between this two lines of command. 
-`\begin{quotation}`   
-`\end{quotation}` 
+Insert your quotation between this two lines of command.   
+`\begin{quotation}`     
+`\end{quotation}`   
   
 8. Type:
 We need to type a total of four times, the first time with XeLaTeX, this is to compile your .tex file, then generate a .aux file, which tells BibTeX which references to use. Next compile with BibTeX. Compiling with XeLaTeX again, the reference is already included in the documentation, but the number referenced at this time may be incorrect. Finally, compile your .tex file with XeLaTeX. If everything goes well, then we have completed.
