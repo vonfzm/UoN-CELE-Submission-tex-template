@@ -1,7 +1,7 @@
 # 说明文档
-Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But I have translated it to English.[Click here to view English version](#english-version)  
+Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But I have translated it to English.[Click here to view English version](#readme)  
 
-由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本说明文档将以中文书写。但我也已将其翻译为英语。[点击此处阅读英文版](#english-version)  
+由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本说明文档将以中文书写。但我也已将其翻译为英语。[点击此处阅读英文版](#readme)  
   
 这个TeX模版是为诺丁汉大学CELE（读音为silly）的学生准备的，由于学校要求统一格式，较为繁琐，如果你希望仅输入纯文本即可自动输出排版好的论文，并且格式与美观均可保证的话，那么使用本模版将大大简化你的写作过程。本模版有详细的使用教程，作为一名接受过九年义务教育的优秀共产主义接班人，你大可不必担心读不懂它。 但是如果你还不知道如何用word进行排版，请务必学会，以免形成依赖但日后与我不在一个学院而无法继续使用这项服务时出现无助感。如果你决定使用但没有TeX基础的话，请务必提前开始着手，因为如果交作业前一天晚上再来看本教程，将会面临ddl所引起的不必要恐慌，从而难以从可能面临的各种问题中实现自我救赎。如果你有任何问题，欢迎致信fzm@mail.ustc.edu.cn
   
@@ -176,3 +176,15 @@ Because our teachers will only use Microsoft Word for comments,so we need to con
 Open the PDF file you get with Adobe Acrobat, the top left menu, File - Export to - Microsoft Word-Word document, rename and export.
 You can also use other methods to do this conversion, but sicne Adobe is the offical PDF provider, Acrobat is the official PDF reading and editing tool,it seems to be more secure.    
   
+Avoid the wrong way to use:  
+----
+1. Please do not use Chinese or any mathematical formula, including full-width punctuation.  
+2. Please do not download and convert the PDF to docx to write!   
+3. If you get an error, please Baidu or Google first. You will only meet some common problems in this simple English-language paper.   
+4. Please don't scare yourself beforehand, and your mentality should be stable. Because this is not harder than word, but you may not be familiar with it at first.  
+
+Acknowledgement:
+----
+1. Thanks to [@Zeping Lee](https://github.com/zepinglee), Johannes Gutenberg and all members of the Chinese TeX User Group telegram group for providing LaTeX guidance.
+2. Thanks to Miss Liontou and Mr Chatwin for providing format guidance.
+3. Thanks to Huang Jiaoya, Wang Yunni, and Huang Xinyi for providing assistance.
