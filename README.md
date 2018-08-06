@@ -138,9 +138,9 @@ The information on cover sheet is from line 26 to 31，it's title、author、cla
 The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
   
 6. Cite references:  
-First open the `bibliography.bib` in the downloaded folder with the document management software (BibDesk on Mac). Then find the reference you will quote in Google Scholar, click on the quotation marks below it, you will see the reference interface, at this point we click on the BibTeX in the lower left corner, get a bunch of code, select all, copy, paste to the .bib file  in the document management software. Then select it, the software will provide a copy cite command, or you can manually enter the reference command. Please note that we are required to use the Harvard format, which requires different reference styles in different situations, so please change the default reference command \cite{} to the one you need (as shown below).
+First open the `bibliography.bib` in the downloaded folder with the document management software (BibDesk on Mac). Then find the reference you will quote in Google Scholar, click on the quotation marks below it, you will see the reference interface, at this point we click on the BibTeX in the lower left corner, get a bunch of code, select all, copy, paste to the .bib file  in the document management software. Then select it, the software will provide a copy cite command, or you can manually enter the reference command. Please note that we are required to use the Harvard format, which requires different reference styles in different situations, so please change the default reference command `\cite{}` to the one you need (as shown below).
 
-| command       |           result |
+| Command       |           Result |
 | ------------- | ------------- |
 | \citet{jon90}  |Jones et al. (1990)  |
 | \citet[chap.~2]{jon90}  | Jones et al. (1990, chap. 2)  |
