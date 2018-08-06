@@ -1,7 +1,7 @@
 # 说明文档
-Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But I have translated it to English.[Click here to view English version](#readme)  
+Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But I have translated it to English.[Click here to view English version](#documentation)  
 
-由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本说明文档将以中文书写。但我也已将其翻译为英语。[点击此处阅读英文版](#readme)  
+由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本说明文档将以中文书写。但我也已将其翻译为英语。[点击此处阅读英文版](#documentation)  
   
 这个TeX模版是为诺丁汉大学CELE（读音为silly）的学生准备的，由于学校要求统一格式，较为繁琐，如果你希望仅输入纯文本即可自动输出排版好的论文，并且格式与美观均可保证的话，那么使用本模版将大大简化你的写作过程。本模版有详细的使用教程，作为一名接受过九年义务教育的优秀共产主义接班人，你大可不必担心读不懂它。 但是如果你还不知道如何用word进行排版，请务必学会，以免形成依赖但日后与我不在一个学院而无法继续使用这项服务时出现无助感。如果你决定使用但没有TeX基础的话，请务必提前开始着手，因为如果交作业前一天晚上再来看本教程，将会面临ddl所引起的不必要恐慌，从而难以从可能面临的各种问题中实现自我救赎。如果你有任何问题，欢迎致信fzm@mail.ustc.edu.cn
   
@@ -94,7 +94,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 2. 感谢提供格式指导的Katerina Liontou老师与Robito Chatwin老师  
 3. 感谢提供协助的黄娇雅同学、王俪霓同学、黄馨逸同学。
 
-# ReadMe  
+# Documentation  
 
 A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
   
