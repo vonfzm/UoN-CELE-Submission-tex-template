@@ -1,13 +1,16 @@
 # UoN-CELE-Submission-tex-template
 A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
-  
-Because most of CELE students are Chinese,This readme will be written in Chinese. 
+
+Because most of CELE students are Chinese,This readme will be written in Chinese.[Click here to view English version](#English Version)  
+[回到顶部](#readme)
+
+由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本模版将以中文书写。  
   
 这个TeX模版是为诺丁汉大学CELE（读音为silly）的学生准备的，由于学校要求统一格式，较为繁琐，如果你希望仅输入纯文本即可自动输出排版好的论文，并且格式与美观均可保证的话，那么使用本模版将大大简化你的写作过程。本模版有详细的使用教程，作为一名接受过九年义务教育的优秀共产主义接班人，你大可不必担心读不懂它。 但是如果你还不知道如何用word进行排版，请务必学会，以免形成依赖但日后与我不在一个学院而无法继续使用这项服务时出现无助感。如果你决定使用但没有TeX基础的话，请务必提前开始着手，因为如果交作业前一天晚上再来看本教程，将会面临ddl所引起的不必要恐慌，从而难以从可能面临的各种问题中实现自我救赎。如果你有任何问题，欢迎致信fzm@mail.ustc.edu.cn
   
 本模版严格遵守以下格式：  
 -----------------
-1. 使用Verdana字体（虽然这是一个非衬线字体，且为商业字体，但学校审美独特，且已经购买了正版并为学生免费提供。）  
+1. 使用Verdana字体（虽然这是一个非衬线字体，且为商业字体，但学校思路清奇审美独特，且已经购买了正版并为学生免费提供。）  
 2. 使用10号字  
 3. 行间距为2倍字号（为了方便老师批注）  
 4. 段间空一行  
@@ -31,7 +34,7 @@ References及所询问的老师：
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 
 2. 下载本模版：  
-下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2253702/template.zip
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2260784/template.zip
 下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸至两面金黄~~备用  
 
 3. 打开源文件：  
@@ -41,7 +44,7 @@ References及所询问的老师：
 26到31行为封面页信息，依次为题目、作者、班级、提交时间、学科（我写了CELE）、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。  
 
 5. 输入正文：  
-正文从53行开始，在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。换行用` \\`（换行是自动的，本命令为强制换行，我想象不出什么情景需要使用它）     
+正文从53行开始，在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
 
 6. 参考文献的引用：  
 首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表） 
@@ -92,3 +95,5 @@ References及所询问的老师：
 1. 感谢提供LaTeX指导的[@Zeping Lee](https://github.com/zepinglee)、Johannes Gutenberg以及Chinese TeX User Group telegram组全体成员  
 2. 感谢提供格式指导的Katerina Liontou老师与Robito Chatwin老师  
 3. 感谢提供协助的黄娇雅同学、王俪霓同学、黄馨逸同学。
+
+# English Version
