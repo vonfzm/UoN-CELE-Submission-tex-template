@@ -1,25 +1,22 @@
-# UoN-CELE-Submission-tex-template
-A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
+# 说明文档
+Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But I have translated it to English.[Click here to view English version](#english-version)  
 
-Because most of CELE students are Chinese,This readme will be written in Chinese.[Click here to view English version](#english-version)  
-
-由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本模版将以中文书写。  
+由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本模版将以中文书写。但我也已将其翻译为英语，[点击此处阅读英文版](#english-version)  
   
 这个TeX模版是为诺丁汉大学CELE（读音为silly）的学生准备的，由于学校要求统一格式，较为繁琐，如果你希望仅输入纯文本即可自动输出排版好的论文，并且格式与美观均可保证的话，那么使用本模版将大大简化你的写作过程。本模版有详细的使用教程，作为一名接受过九年义务教育的优秀共产主义接班人，你大可不必担心读不懂它。 但是如果你还不知道如何用word进行排版，请务必学会，以免形成依赖但日后与我不在一个学院而无法继续使用这项服务时出现无助感。如果你决定使用但没有TeX基础的话，请务必提前开始着手，因为如果交作业前一天晚上再来看本教程，将会面临ddl所引起的不必要恐慌，从而难以从可能面临的各种问题中实现自我救赎。如果你有任何问题，欢迎致信fzm@mail.ustc.edu.cn
   
 本模版严格遵守以下格式：  
 -----------------
-1. 使用Verdana字体（虽然这是一个非衬线字体，且为商业字体，但学校思路清奇审美独特，且已经购买了正版并为学生免费提供。）  
-2. 使用10号字  
-3. 行间距为2倍字号（为了方便老师批注）  
-4. 段间空一行  
+1. 使用10号Verdana字体（虽然这是一个非衬线字体，且为商业字体，但学校思路清奇审美独特，且已经购买了正版并为学生免费提供。）  
+2. 行间距为2倍字号（为了方便老师批注）  
+3. 段落之间空一行  
+4. 页码从正文开始，并延伸到参考文献页  
 5. 页边距为2.5cm  
-6. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求）
-7. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
-8. 页码从正文开始，并延伸到参考文献页
-9. 对齐方式为justify
+6. 对齐方式为justify  
+7. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求） 
+8. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
   
-References及所询问的老师：
+参考文献及所询问的老师：
 ---------------
 1. [USE OF HARVARD REFERENCING，The University of Nottingham, School of Education](https://dokumen.tips/documents/use-of-harvard-referencing.html)(Version 2.0 - 22.03.2013)
 2. [The Coventry University Guide to Referencing in Harvard Style Guidelines and Glossary](https://www.coventry.ac.uk/Documents/Lanchester%20Library/Guide%20to%20Referencing%20in%20Harvard%20Style%20Version%204.0%20September%202017.pdf)(Version 4.0 September 2017)
@@ -95,4 +92,27 @@ References及所询问的老师：
 2. 感谢提供格式指导的Katerina Liontou老师与Robito Chatwin老师  
 3. 感谢提供协助的黄娇雅同学、王俪霓同学、黄馨逸同学。
 
-# English Version
+# English Version  
+
+A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
+  
+This TeX template is for students of the University of Nottingham CELE. Because the school requires a uniform format, it is kinds of cumbersome. If you want to input only plain text, and automatically output the typeset paper, with the format and appearance guaranteed,then by using this template, you will greatly simplify your writing process. This template has a detailed tutorial, you don't have to worry about understanding it. But if you have not known how to typeset with word, make sure to learn it to avoid reliance, or you will feel helpless when you are not in the same faculty with me and can't continue to use this service in the future. If you decide to use but don't have a TeX foundation, start early. Because if you look at this tutorial the night before deadline, you will face unnecessary panic caused by ddl, making it difficult to achieve self salvation from the various problems you may face. If you have any questions, don't hesitate to contact me at fzm@mail.ustc.edu.cn  
+  
+This template strictly adheres to the following format:
+-------
+1. Verdana size 10 font(though Verdana is a sans serif font,and commercial product as well,but our university is supplying it to us for free)   
+2. 2 line spacing(for teachers to add comments)  
+3. an empty line between paragraphs  
+4. page numbers from text to references  
+5. standard margins (2.5cm)  
+6. justify  
+7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
+8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)  
+References and Teachers I refered to:
+---------------------------  
+
+1. [USE OF HARVARD REFERENCING，The University of Nottingham, School of Education](https://dokumen.tips/documents/use-of-harvard-referencing.html)(Version 2.0 - 22.03.2013)
+2. [The Coventry University Guide to Referencing in Harvard Style Guidelines and Glossary](https://www.coventry.ac.uk/Documents/Lanchester%20Library/Guide%20to%20Referencing%20in%20Harvard%20Style%20Version%204.0%20September%202017.pdf)(Version 4.0 September 2017)
+3. [Submission 2 - Details (Course Texts booklet)](http://moodle.nottingham.ac.uk/pluginfile.php/4542903/mod_folder/content/0/Submission%202%20-%20Details%20%28Course%20Texts%20booklet%29.docx?forcedownload=1)   
+4. Katerina Liontou <alzkl@exmail.nottingham.ac.uk>
+5. Robito Chatwin <alzrc@exmail.nottingham.ac.uk>
