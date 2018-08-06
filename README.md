@@ -187,4 +187,4 @@ Acknowledgement:
 ----
 1. Thanks to [@Zeping Lee](https://github.com/zepinglee), Johannes Gutenberg and all members of the Chinese TeX User Group telegram group for providing LaTeX guidance.
 2. Thanks to Miss Liontou and Mr Chatwin for providing format guidance.
-3. Thanks to Huang Jiaoya, Wang Yunni, and Huang Xinyi for providing assistance.
+3. Thanks to Huang Jiaoya, Wang Lini, and Huang Xinyi for providing assistance.
