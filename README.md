@@ -104,10 +104,10 @@ This template strictly adheres to the following format:
 -------
 1. Verdana size 10 font(though Verdana is a sans serif font,and commercial product as well,but our university is supplying it to us for free)   
 2. 2 line spacing(for teachers to add comments)  
-3. an empty line between paragraphs  
-4. page numbers from text to references  
-5. standard margins (2.5cm)  
-6. justify  
+3. An empty line between paragraphs  
+4. Page numbers from text to references  
+5. Standard margins (2.5cm)  
+6. Justify  
 7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
 8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)
 
@@ -122,7 +122,7 @@ References and Teachers I refered to:
 Instructions:
 ------
 1. Configuring the TeX environment:  
-please refer to [University of Science and Technology University Dissertation LaTeX Template Beginner's Guide](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，This project will not describe again.  
+Please refer to [University of Science and Technology University Dissertation LaTeX Template Beginner's Guide](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，This project will not describe again.  
   
 2. Download this template:  
 Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2260784/template.zip
