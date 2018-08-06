@@ -1,7 +1,7 @@
 # UoN-CELE-Submission-tex-template
 A TeX template for University of Nottingham CELE students,to help them with their submissions' fromat  
 
-Because most of CELE students are Chinese,This readme will be written in Chinese.[Click here to view English version](#english version)  
+Because most of CELE students are Chinese,This readme will be written in Chinese.[Click here to view English version](#englishversion)  
 [回到顶部](#readme)
 
 由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本模版将以中文书写。  
