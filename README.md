@@ -11,7 +11,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 2. 行间距为2倍字号（为了方便老师批注）  
 3. 段落之间空一行  
 4. 页码从正文开始，并延伸到参考文献页  
-5. 页边距为2.5cm  
+5. A4纸，页边距为2.5cm  
 6. 对齐方式为justify  
 7. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求） 
 8. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
@@ -106,7 +106,7 @@ This template strictly adheres to the following format:
 2. 2 line spacing(for teachers to add comments)  
 3. An empty line between paragraphs  
 4. Page numbers from text to references  
-5. Standard margins (2.5cm)  
+5. A4 paper with standard margins (2.5cm)  
 6. Justify  
 7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
 8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)
