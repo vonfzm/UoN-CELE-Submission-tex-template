@@ -15,6 +15,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 6. 对齐方式为左对齐 
 7. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求） 
 8. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
+9. 本次为final，加入了目录与章节支持，请自行决定是否选用  
   
 参考文献及所询问的老师：
 ---------------
@@ -30,17 +31,19 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 
 2. 下载本模版：  
-下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2260784/template.zip
-下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸至两面金黄~~备用    
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2342773/final.zip
+下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸，至两面金黄~~备用 
+~~（由于现在管得严，隔壁小孩不能直接哭，得先走程序）~~
 
 3. 打开源文件：  
 使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`template.tex  `。  
 
 4. 输入基本信息：  
-26到31行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。  
+28到33行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
 
 5. 输入正文：  
-正文从53行开始，在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
+①如果你想使用分段，请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小结题目在`\subsection{}`的花括号里。如果想每章后不换页，把53～56行的include改成input  
+②如果你不想分段，那么删除50、51，53～56行，保留52行，直接输入正文正文.在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
 
 6. 参考文献的引用：  
 首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表） 
@@ -74,7 +77,8 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
   
 9. 字数统计：  
-在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`然后输入`texcount template.tex`，就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
+在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`。  
+然后在第五步①分段的话，输入`texcount -inc template.tex`，②没分段的话，输入`texcount template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
   
 10. 转成Word格式（__很重要！__）：  
 由于我们的老师只会用Microsoft Word进行批注（事实上这也是学校买正版的原因），所以我们需要把得到的PDF转成Word文档。  
@@ -110,6 +114,7 @@ This template strictly adheres to the following format:
 6. Raggedright  
 7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
 8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)
+9. This time for final, added the catalog and chapter support, please decide whether to choose  
 
 References and Teachers I refered to:
 -------
@@ -125,7 +130,7 @@ Instructions:
 Please refer to [University of Science and Technology University Dissertation LaTeX Template Beginner's Guide](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，This project will not describe again.  
   
 2. Download this template:  
-Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2260784/template.zip
+Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2342773/final.zip
 You will get a zip，unzip it. 
   
 3. Open the source code file:  
@@ -135,8 +140,10 @@ Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.
 The information on cover sheet is from line 26 to 31，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
-The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
-  
+①If you want to use segmentation, edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. If you don't want to change page after each section, change the 'include' of 53 to 56 lines to 'input'.  
+
+②If you don't want to segment, delete 50, 51, 53~56 lines, keep 52 line, The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
+
 6. Cite references:  
 First open the `bibliography.bib` in the downloaded folder with the document management software (BibDesk on Mac). Then find the reference you will quote in Google Scholar, click on the quotation marks below it, you will see the reference interface, at this point we click on the BibTeX in the lower left corner, get a bunch of code, select all, copy, paste to the .bib file  in the document management software. Then select it, the software will provide a copy cite command, or you can manually enter the reference command. Please note that we are required to use the Harvard format, which requires different reference styles in different situations, so please change the default reference command `\cite{}` to the one you need (as shown below).
 
@@ -169,7 +176,8 @@ We need to type a total of four times, the first time with XeLaTeX, this is to c
 (Please note that depending on the editor, the methods are different. For example, CTex can be compiled in one click(F9), TexShop needs to select the method to type four times, and some compilers need to switch to .bib file for the second time.)  
  
 9. Word count:
-In the terminal (on Mac you can find it in the lunchpad - other, on Windows,press Win + R, input cmd in the window that pops up and press enter), first input `cd "path of your template folder" `, such as on the desktop,it's `cd Desktop\template` .Then enter `texcount template.tex`, which will display the number of words in the body and title, and the words in references will not be counted.   
+In the terminal (on Mac you can find it in the lunchpad - other, on Windows,press Win + R, input cmd in the window that pops up and press enter), first input `cd "path of your template folder" `, such as on the desktop,it's `cd Desktop\template` .  
+Then in the step 5, if you chose①enter `texcount -inc template.tex`, if you chose②,enter `texcount template.tex` .It will display the number of words in the body and title, and the words in references will not be counted.   
   
 10. Convert your PDF to .docx(__very important!__):   
 Because our teachers will only use Microsoft Word for comments,so we need to convert the pdf document to MS word format.
