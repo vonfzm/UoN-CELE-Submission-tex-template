@@ -77,7 +77,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
   
 9. 字数统计：  
-在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\template`。  
+在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\final`。  
 然后在第五步①分段的话，输入`texcount -inc template.tex`，②没分段的话，输入`texcount template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
   
 10. 转成Word格式（__很重要！__）：  
@@ -176,7 +176,7 @@ We need to type a total of four times, the first time with XeLaTeX, this is to c
 (Please note that depending on the editor, the methods are different. For example, CTex can be compiled in one click(F9), TexShop needs to select the method to type four times, and some compilers need to switch to .bib file for the second time.)  
  
 9. Word count:
-In the terminal (on Mac you can find it in the lunchpad - other, on Windows,press Win + R, input cmd in the window that pops up and press enter), first input `cd "path of your template folder" `, such as on the desktop,it's `cd Desktop\template` .  
+In the terminal (on Mac you can find it in the lunchpad - other, on Windows,press Win + R, input cmd in the window that pops up and press enter), first input `cd "path of your template folder" `, such as on the desktop,it's `cd Desktop\final` .  
 Then in the step 5, if you chose①enter `texcount -inc template.tex`, if you chose②,enter `texcount template.tex` .It will display the number of words in the body and title, and the words in references will not be counted.   
   
 10. Convert your PDF to .docx(__very important!__):   
