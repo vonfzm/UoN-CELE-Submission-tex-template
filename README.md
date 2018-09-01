@@ -43,7 +43,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 
 5. 输入正文：  
 ①如果你想使用分段，请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小结题目在`\subsection{}`的花括号里。如果想每章后不换页，把53～56行的include改成input  
-②如果你不想分段，那么删除50、51，53～56行，保留52行，直接输入正文正文.在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
+②如果你不想分段，那么删除50、51，53～56行，保留52行，直接输入正文。正文在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
 
 6. 参考文献的引用：  
 首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表） 
@@ -137,7 +137,7 @@ You will get a zip，unzip it.
 Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.tex  `.  
   
 4. Input your information:  
-The information on cover sheet is from line 26 to 31，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
+The information on cover sheet is from line 28 to 33，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
 ①If you want to use segmentation, edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. If you don't want to change page after each section, change the 'include' of 53 to 56 lines to 'input'.  
