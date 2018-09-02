@@ -42,8 +42,8 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 28到33行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
 
 5. 输入正文：  
-①如果你想使用分段，请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。如果想每章后不换页，把53～56行的include改成input  
-②如果你不想分段，那么删除50、51，53～56行，保留52行，直接输入正文。正文在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
+①如果你想分章节，请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。如果想每章后不换页，把53～56行的include改成input  
+②如果你不想分章节，那么删除50、51，53～56行，保留52行，直接输入正文。正文在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
 
 6. 参考文献的引用：  
 首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表） 
@@ -140,9 +140,9 @@ Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.
 The information on cover sheet is from line 28 to 33，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
-①If you want to use segmentation, edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. If you don't want to change page after each section, change the 'include' of 53 to 56 lines to 'input'.  
+①If you want to divide your paper into sections, edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. If you don't want to change page after each section, change the 'include' of 53 to 56 lines to 'input'.  
 
-②If you don't want to segment, delete 50, 51, 53~56 lines, keep 52 line, The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
+②If you don't want to, delete 50, 51, 53~56 lines, keep 52 line, The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
 
 6. Cite references:  
 First open the `bibliography.bib` in the downloaded folder with the document management software (BibDesk on Mac). Then find the reference you will quote in Google Scholar, click on the quotation marks below it, you will see the reference interface, at this point we click on the BibTeX in the lower left corner, get a bunch of code, select all, copy, paste to the .bib file  in the document management software. Then select it, the software will provide a copy cite command, or you can manually enter the reference command. Please note that we are required to use the Harvard format, which requires different reference styles in different situations, so please change the default reference command `\cite{}` to the one you need (as shown below).
