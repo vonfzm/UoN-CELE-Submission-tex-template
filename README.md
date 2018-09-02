@@ -78,7 +78,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
   
 9. 字数统计：  
 在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\final`。  
-然后在第五步①分段的话，输入`texcount -inc template.tex`，②没分段的话，输入`texcount template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
+然后在第五步①分章节的话，输入`texcount -inc template.tex`，②没分的话，输入`texcount template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
   
 10. 转成Word格式（__很重要！__）：  
 由于我们的老师只会用Microsoft Word进行批注（事实上这也是学校买正版的原因），所以我们需要把得到的PDF转成Word文档。  
