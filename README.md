@@ -15,7 +15,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 6. 对齐方式为左对齐 
 7. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求） 
 8. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
-9. 本次为final，加入了目录与章节支持，请自行决定是否选用  
+9. 本次为final，加入了目录与章节支持，section标题为12号粗体，subsection标题为11号粗体  
   
 参考文献及所询问的老师：
 ---------------
@@ -114,7 +114,7 @@ This template strictly adheres to the following format:
 6. Raggedright  
 7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
 8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)
-9. This time for final, added the catalog and chapter support, please decide whether to choose  
+9. This time for final, added the catalog and chapter support, title of sections are 12 bold, title of subsections are 11 bold  
 
 References and Teachers I refered to:
 -------
