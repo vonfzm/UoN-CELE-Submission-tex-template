@@ -31,7 +31,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 
 2. 下载本模版：  
-下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2342773/final.zip
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2350395/final.zip
 下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸，至两面金黄~~备用 
 ~~（由于现在管得严，隔壁小孩不能直接哭，得先走程序）~~
 
@@ -42,8 +42,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 28到33行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
 
 5. 输入正文：  
-①如果你想分章节，请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。如果想每章后不换页，把53～56行的include改成input  
-②如果你不想分章节，那么删除50、51，53～56行，保留52行，直接输入正文。正文在`\newpage`之前结束（你可以无限回车使`\newpage`无限往下，行数没有任何限制）。换段用`\par`。  
+请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。换段用`\par`。  
 
 6. 参考文献的引用：  
 首先用文献管理软件(在Mac上为BibDesk）打开下载好的文件夹中`bibliography.bib `。然后在谷歌学术中找到你将引用的参考文献，点击它下面的引号，你将看到引用界面，此时我们点击左下角第一个BibTeX，得到一堆代码，全选，复制，粘贴到我们的文献管理软件中。然后选中它，软件会提供复制引用命令，或者你手动输入引用命令。请注意，我们被要求使用Harvard格式，在不同情况下需要有不同引用风格，所以请将默认引用命令`\cite{}`根据需要改为你所需要的指令（如下表） 
@@ -77,8 +76,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 （请注意，根据编辑器不同，做法也有不同，比如CTex F9 可以一次性编译完成，TexShop需要选方法按四次排版，而有的编译器还需要第二次换成对.bib文件进行排版）
   
 9. 字数统计：  
-在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\final`。  
-然后在第五步①分章节的话，输入`texcount -inc template.tex`，②没分的话，输入`texcount template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
+在终端（Mac在启动台-其它中找，Windows为Win+R，跳出来的窗口中输入cmd，回车）中，首先输入`cd 你的template文件夹的路径`，比如放在桌面就是`cd Desktop\final`。输入`texcount -inc template.tex`就会显示出正文、标题各有多少字，且参考文献不会算在字数里。 
   
 10. 转成Word格式（__很重要！__）：  
 由于我们的老师只会用Microsoft Word进行批注（事实上这也是学校买正版的原因），所以我们需要把得到的PDF转成Word文档。  
@@ -130,7 +128,7 @@ Instructions:
 Please refer to [University of Science and Technology University Dissertation LaTeX Template Beginner's Guide](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，This project will not describe again.  
   
 2. Download this template:  
-Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2342773/final.zip
+Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2350395/final.zip
 You will get a zip，unzip it. 
   
 3. Open the source code file:  
@@ -140,9 +138,7 @@ Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.
 The information on cover sheet is from line 28 to 33，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
-①If you want to divide your paper into sections, edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. If you don't want to change page after each section, change the 'include' of 53 to 56 lines to 'input'.  
-
-②If you don't want to, delete 50, 51, 53~56 lines, keep 52 line, The text begins from line 53，ends before `\newpage`.Use `\par` to begin a new paragraph.  
+Edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. Use `\par` to begin a new paragraph.  
 
 6. Cite references:  
 First open the `bibliography.bib` in the downloaded folder with the document management software (BibDesk on Mac). Then find the reference you will quote in Google Scholar, click on the quotation marks below it, you will see the reference interface, at this point we click on the BibTeX in the lower left corner, get a bunch of code, select all, copy, paste to the .bib file  in the document management software. Then select it, the software will provide a copy cite command, or you can manually enter the reference command. Please note that we are required to use the Harvard format, which requires different reference styles in different situations, so please change the default reference command `\cite{}` to the one you need (as shown below).
@@ -177,7 +173,7 @@ We need to type a total of four times, the first time with XeLaTeX, this is to c
  
 9. Word count:
 In the terminal (on Mac you can find it in the lunchpad - other, on Windows,press Win + R, input cmd in the window that pops up and press enter), first input `cd "path of your template folder" `, such as on the desktop,it's `cd Desktop\final` .  
-Then in the step 5, if you chose①enter `texcount -inc template.tex`, if you chose②,enter `texcount template.tex` .It will display the number of words in the body and title, and the words in references will not be counted.   
+Enter `texcount -inc template.tex`.It will display the number of words in the body and title, and the words in references will not be counted.   
   
 10. Convert your PDF to .docx(__very important!__):   
 Because our teachers will only use Microsoft Word for comments,so we need to convert the pdf document to MS word format.
