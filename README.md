@@ -8,14 +8,13 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 本模版严格遵守以下格式：  
 -----------------
 1. 使用10号Verdana字体（虽然这是一个非衬线字体，且为商业字体，但学校思路清奇审美独特，且已经购买了正版并为学生免费提供。）  
-2. 行间距为2倍字号（为了方便老师批注）  
+2. 行间距为1.5倍字号（为了方便老师批注）  
 3. 段落之间空一行  
 4. 页码从正文开始，并延伸到参考文献页  
 5. A4纸，页边距为2.5cm  
 6. 对齐方式为左对齐 
 7. 根据学校邮件要求，使用考文垂大学规定的Harvard文献引用与列表格式（References大号标题经老师证明符合要求） 
-8. 在封面页最上方添加校徽以免封面太过单薄（符合学校官网对logo使用的要求，即使用时充满自豪感、完整、与背景不冲突，并经过老师证明符合要求）
-9. 本次为final，加入了目录与章节支持，section标题为12号粗体，subsection标题为11号粗体  
+8. 本次为final，加入了目录与章节支持，section标题为12号粗体，subsection标题为11号粗体  
   
 参考文献及所询问的老师：
 ---------------
@@ -39,7 +38,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`template.tex  `。  
 
 4. 输入基本信息：  
-28到33行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
+23,24,31,33,34行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
 
 5. 输入正文：  
 请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。换段用`\par`。  
@@ -111,8 +110,7 @@ This template strictly adheres to the following format:
 5. A4 paper with standard margins (2.5cm)  
 6. Raggedright  
 7. Harvard literature citation and list format as specified by Coventry University according to requirements in the mail sent by school  
-8. Add the school badge at the top of the cover page to avoid the cover being too thin (in accordance with the school's official website requirements for logo use, which is using it proudly, completeness, and not conflicting with the background)
-9. This time for final, added the catalog and chapter support, title of sections are 12 bold, title of subsections are 11 bold  
+8. This time for final, added the catalog and chapter support, title of sections are 12 bold, title of subsections are 11 bold  
 
 References and Teachers I refered to:
 -------
@@ -135,7 +133,7 @@ You will get a zip，unzip it.
 Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.tex  `.  
   
 4. Input your information:  
-The information on cover sheet is from line 28 to 33，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
+The information on cover sheet is line 23,24,31,33,34，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
 Edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. Use `\par` to begin a new paragraph.  
