@@ -104,7 +104,7 @@ This TeX template is for students of the University of Nottingham CELE. Because 
 This template strictly adheres to the following format:
 -------
 1. Verdana size 10 font(though Verdana is a sans serif font,and commercial product as well,but our university is supplying it to us for free)   
-2. 2 line spacing(for teachers to add comments)  
+2. 1.5 line spacing(for teachers to add comments)  
 3. An empty line between paragraphs  
 4. Page numbers from text to references  
 5. A4 paper with standard margins (2.5cm)  
