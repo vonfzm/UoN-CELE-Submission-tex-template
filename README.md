@@ -31,7 +31,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 
 2. 下载本模版：  
 下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2364413/final.zip
-下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸，至两面金黄~~备用 
+下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸至两面金黄~~备用 
 ~~（由于现在管得严，隔壁小孩不能直接哭，得先走程序）~~
 
 3. 打开源文件：  
