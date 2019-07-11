@@ -38,7 +38,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 使用编辑器（Mac上为TexShop，Windows上可能为TexWorks或WinEdt）打开`template.tex  `。  
 
 4. 输入基本信息：  
-23,24,31,33,34行为封面页信息，依次为题目、作者、班级、提交时间、学科、字数（如何统计将在下文中给出）。只需将这六行中大括号内内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。字数统计方法将在下文给出。  
+23,24,31,33,34行为封面页信息，依次为作者、字数（如何统计将在下文中给出）、学号、院系、学科。只需将这六行内容改为你自己的即可，标题过长也会有自动换行与对齐，请不必担心。 
 
 5. 输入正文：  
 请在section文件夹里的几个tex文件（自行决定个数）里编辑正文，章节题目在每个tex文件开头的`\section{}`的花括号里。小节题目在`\subsection{}`的花括号里。换段用`\par`。  
@@ -133,7 +133,7 @@ You will get a zip，unzip it.
 Use editor（TexShop on Mac，TexWorks or WinEdt on Windows）to open `template.tex  `.  
   
 4. Input your information:  
-The information on cover sheet is line 23,24,31,33,34，it's title、author、class、date、academic subject、word count（How to statist will be given below）.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
+The information on cover sheet is line 23,24,31,33,34, it's author, word count（How to statist will be given below）, student number, school or department, academic subject.Fill in your information in the curly braces，If the title is too long, there will be automatic line breaks and alignment，please don't worry.  
   
 5. Input your text:  
 Edit the tex files (the number is decided by yourself) in the sections folder. The chapter title is in the curly braces of `\section{}` at the beginning of each tex file. The title of subsection is in the curly braces of `\subsection{}`. Use `\par` to begin a new paragraph.  
