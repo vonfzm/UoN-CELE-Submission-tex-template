@@ -30,7 +30,7 @@ Because most of CELE students are Chinese,in order to prevent students from faci
 详见[中国科学技术大学学位论文LaTeX模板新手指南](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，本project不再赘述。
 
 2. 下载本模版：  
-下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2364413/final.zip
+下载地址：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/3381336/final.zip
 下载到的应该是一个zip，将其解压，~~洗净切丁，沾上鸡蛋清，裹上面包糠炸至两面金黄~~备用 
 ~~（由于现在管得严，隔壁小孩不能直接哭，得先走程序）~~
 
@@ -126,7 +126,7 @@ Instructions:
 Please refer to [University of Science and Technology University Dissertation LaTeX Template Beginner's Guide](https://github.com/ustctug/ustcthesis/wiki/%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97)，This project will not describe again.  
   
 2. Download this template:  
-Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/2364413/final.zip
+Download link：https://github.com/vonfzm/UoN-CELE-Submission-tex-template/files/3381336/final.zip
 You will get a zip，unzip it. 
   
 3. Open the source code file:  
