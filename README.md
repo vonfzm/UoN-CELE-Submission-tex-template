@@ -1,5 +1,5 @@
 # 说明文档
-Because most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme will be written in Chinese.But there is also an English version.[Click here to view English version](#documentation)  
+For most of CELE students are Chinese,in order to prevent students from facing additional language barriers during using,this readme document will be written in Chinese.But an English version is also available.[Click here to view English version](#documentation)  
 
 由于大多数同学是中国人，为了避免学生在使用过程中额外面临语言障碍，本说明文档将以中文书写。但也有英文版供阅读。[点击此处阅读英文版](#documentation)  
   
